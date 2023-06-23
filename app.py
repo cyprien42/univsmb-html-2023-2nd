@@ -20,3 +20,11 @@ def equipe1():
 @app.route("/Planning")
 def planning():
     return render_template("Planning.html")
+
+@app.route('/Equipe2')
+def equipe2():
+    return redirect(url_for('Accueil'))
+
+@app.route('/contacts')
+def contacts():
+    return redirect(url_for('accueil'))
