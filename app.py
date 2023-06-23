@@ -27,4 +27,4 @@ def equipe2():
 
 @app.route('/contacts')
 def contacts():
-    return redirect(url_for('accueil'))
+    return redirect(url_for('Accueil'))
